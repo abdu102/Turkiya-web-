@@ -1,0 +1,263 @@
+footer {
+  background: #f8464a;
+  padding: 20px;
+
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding-top: 10px;
+
+    &__ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      &--li {
+        margin: 5px;
+        transition: all 0.3s ease;
+        &:hover{
+            transform: scale(1.1, 1.1);
+          }
+          &:first-child{
+            &:hover{
+                transform: none;
+            }
+            text-decoration: none;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 32px;
+            /* identical to box height, or 200% */
+  
+            /* Text/Disable */
+  
+            color: #FFFFFF;
+            
+          }
+          
+        & a {
+          text-decoration: none;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          /* identical to box height, or 200% */
+
+          /* Text/Disable */
+
+          color: #e6e6e6;
+          
+        }
+        &:nth-child(1) a{
+            color: #FFFFFF;
+            font-weight: 700;
+            
+          }
+      }
+    }
+  }
+}
+@media screen and (max-width:992px) {
+    footer {
+        background: #f8464a;
+        padding: 20px;
+      
+        .foot {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding-top: 10px;
+      
+          &__ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+      
+            &--li {
+              margin: 5px;
+              transition: all 0.3s ease;
+              &:hover{
+                  transform: scale(1.1, 1.1);
+                }
+                &:first-child{
+                  &:hover{
+                      transform: none;
+                  }
+                  text-decoration: none;
+                  font-family: "Inter";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 30px;
+                  /* identical to box height, or 200% */
+        
+                  /* Text/Disable */
+        
+                  color: #FFFFFF;
+                  
+                }
+                
+              & a {
+                text-decoration: none;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* identical to box height, or 200% */
+      
+                /* Text/Disable */
+      
+                color: #e6e6e6;
+                
+              }
+              &:nth-child(1) a{
+                  color: #FFFFFF;
+                  font-weight: 700;
+                  
+                }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width:430px) {
+    footer {
+        background: #f8464a;
+        padding: 20px;
+      
+        .foot {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          width: 100%;
+          padding-top: 10px;
+      
+          &__ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 21%;
+            margin:10px;
+            &--li {
+              margin: 5px;
+              transition: all 0.3s ease;
+              &:hover{
+                  transform: scale(1.1, 1.1);
+                }
+                &:first-child{
+                  &:hover{
+                      transform: none;
+                  }
+                  text-decoration: none;
+                  font-family: "Inter";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 30px;
+                  /* identical to box height, or 200% */
+        
+                  /* Text/Disable */
+        
+                  color: #FFFFFF;
+                  
+                }
+                
+              & a {
+                text-decoration: none;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* identical to box height, or 200% */
+      
+                /* Text/Disable */
+      
+                color: #e6e6e6;
+                
+              }
+              &:nth-child(1) a{
+                  color: #FFFFFF;
+                  font-weight: 700;
+                  
+                }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width:361px) {
+    footer {
+        background: #f8464a;
+        padding: 20px 0 0 5px;
+      
+        .foot {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          width: 100%;
+          padding-top: 10px;
+         
+          &__ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 21%;
+            &--li {
+              margin: 5px;
+              transition: all 0.3s ease;
+              &:hover{
+                  transform: scale(1.1, 1.1);
+                }
+                &:first-child{
+                  &:hover{
+                      transform: none;
+                  }
+                  text-decoration: none;
+                  font-family: "Inter";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 30px;
+                  /* identical to box height, or 200% */
+        
+                  /* Text/Disable */
+        
+                  color: #FFFFFF;
+                  
+                }
+                
+              & a {
+                text-decoration: none;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* identical to box height, or 200% */
+      
+                /* Text/Disable */
+      
+                color: #e6e6e6;
+                
+              }
+              &:nth-child(1) a{
+                  color: #FFFFFF;
+                  font-weight: 700;
+                  
+                }
+            }
+          }
+        }
+      }
+}

@@ -1,0 +1,527 @@
+.intro {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__ab {
+    height: 400px;
+    width: 90%; 
+    & h1 {
+      font-family: "Manrope";
+      width: 60%;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 64px;
+      line-height: 82px;
+      /* or 128% */
+
+      color: #000000;
+    }
+    & p {
+      width: 44%;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+      
+      letter-spacing: 0.2px;
+      
+      color: #000000;
+    }
+    &--input {
+      width: 520px;
+      height: 73px;
+      background: #ffffff;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      &:hover{
+        transform: scale(1.1, 1.1);
+      }
+      & input {
+        width: 372px;
+        height: 73px;
+        border: none;
+        padding-left: 20px;
+       outline: none;
+        &::placeholder {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 36px;
+          /* identical to box height, or 225% */
+
+          letter-spacing: 0.2px;
+
+          color: rgba(0, 0, 0, 0.4);
+        }
+      }
+      & button {
+        width: 136px;
+        height: 65px;
+        border: none;
+        background: #f84646;
+        border-radius: 8px;
+        color: aliceblue;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 36px;
+        /* identical to box height, or 225% */
+
+        letter-spacing: 0.2px;
+        transition: all 0.3s ease;
+        &:hover {
+          background: none;
+          border: 1px solid #f84646;
+          color: #f84646;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:992px) {
+  .intro {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__ab {
+      height: 400px;
+      width: 90%; 
+      padding-left: 15px;
+      & h1 {
+        font-family: "Manrope";
+        width: 80%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 74px;
+        /* or 128% */
+  
+        color: #000000;
+      }
+      & p {
+        width: 63%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+        
+        letter-spacing: 0.2px;
+        
+        color: #000000;
+      }
+      &--input {
+        width: 520px;
+        height: 73px;
+        background: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        &:hover{
+          transform: scale(1.1, 1.1);
+        }
+        & input {
+          width: 372px;
+          height: 73px;
+          border: none;
+          padding-left: 20px;
+         outline: none;
+          &::placeholder {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            /* identical to box height, or 225% */
+  
+            letter-spacing: 0.2px;
+  
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+        & button {
+          width: 136px;
+          height: 65px;
+          border: none;
+          background: #f84646;
+          border-radius: 8px;
+          color: aliceblue;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 36px;
+          /* identical to box height, or 225% */
+  
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: none;
+            border: 1px solid #f84646;
+            color: #f84646;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:769px) {
+  .intro {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__ab {
+      height: 400px;
+      width: 100%; 
+      padding-left: 35px;
+      & h1 {
+        font-family: "Manrope";
+        width: 85%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 72px;
+        /* or 128% */
+  
+        color: #000000;
+      }
+      & p {
+        width: 64%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 175% */
+        
+        letter-spacing: 0.2px;
+        
+        color: #000000;
+      }
+      &--input {
+        width: 430px;
+        height: 73px;
+        background: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        &:hover{
+          transform: scale(1.1, 1.1);
+        }
+        & input {
+          width: 292px;
+          height: 73px;
+          border: none;
+          padding-left: 20px;
+         outline: none;
+          &::placeholder {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            /* identical to box height, or 225% */
+  
+            letter-spacing: 0.2px;
+  
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+        & button {
+          width: 126px;
+          height: 65px;
+          border: none;
+          background: #f84646;
+          border-radius: 8px;
+          color: aliceblue;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 36px;
+          /* identical to box height, or 225% */
+  
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: none;
+            border: 1px solid #f84646;
+            color: #f84646;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:576px) {
+  .intro {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    &__ab {
+      height: 450px;
+      width: 100%; 
+      display: flex;
+      align-items: center;  
+      & h1 {
+        font-family: "Manrope";
+        width: 100%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 58px;
+        /* or 128% */
+
+        text-align: center;
+        color: #000000;
+      }
+      & p {
+        width: 65%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 23px;
+        /* or 175% */
+        
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #000000;
+      }
+      &--input {
+        width: 335px;
+        height: 59px;
+        background: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        &:hover{
+          transform: scale(1.1, 1.1);
+        }
+        & input {
+          width: 232px;
+          height: 55px;
+          border: none;
+          padding-left: 20px;
+         outline: none;
+         border-radius: 8px;
+          &::placeholder {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            /* identical to box height, or 225% */
+  
+            letter-spacing: 0.2px;
+  
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+        & button {
+          width: 90px;
+          height: 50px;
+          border: none;
+          background: #f84646;
+          border-radius: 8px;
+          color: aliceblue;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 19px;
+          /* identical to box height, or 225% */
+  
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: none;
+            border: 1px solid #f84646;
+            color: #f84646;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:390px) {
+  .intro {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    &__ab {
+      height: 450px;
+      width: 100%; 
+      display: flex;
+      align-items: center;
+      padding-right: 20px;
+      & h1 {
+        font-family: "Manrope";
+        width: 100%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 58px;
+        /* or 128% */
+
+        text-align: center;
+        color: #000000;
+      }
+      & p {
+        width: 90%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        /* or 175% */
+        
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #000000;
+      }
+      &--input {
+        width: 315px;
+        height: 59px;
+        background: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        &:hover{
+          transform: scale(1.1, 1.1);
+        }
+        & input {
+          width: 212px;
+          height: 55px;
+          border: none;
+          padding-left: 20px;
+         outline: none;
+         border-radius: 8px;
+          &::placeholder {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            /* identical to box height, or 225% */
+  
+            letter-spacing: 0.2px;
+  
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+        & button {
+          width: 90px;
+          height: 50px;
+          border: none;
+          background: #f84646;
+          border-radius: 8px;
+          color: aliceblue;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 19px;
+          /* identical to box height, or 225% */
+  
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: none;
+            border: 1px solid #f84646;
+            color: #f84646;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:360px) {
+  .intro {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    &__ab {
+      height: 450px;
+      width: 100%; 
+      display: flex;
+      align-items: center;
+      padding-right: 20px;
+      & h1 {
+        font-family: "Manrope";
+        width: 100%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 58px;
+        /* or 128% */
+
+        text-align: center;
+        color: #000000;
+      }
+      & p {
+        width: 100%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        /* or 175% */
+        
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #000000;
+      }
+      &--input {
+        width: 315px;
+        height: 59px;
+        background: #ffffff;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        &:hover{
+          transform: scale(1.1, 1.1);
+        }
+        & input {
+          width: 212px;
+          height: 55px;
+          border: none;
+          padding-left: 20px;
+         outline: none;
+         border-radius: 8px;
+          &::placeholder {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            /* identical to box height, or 225% */
+  
+            letter-spacing: 0.2px;
+  
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+        & button {
+          width: 90px;
+          height: 50px;
+          border: none;
+          background: #f84646;
+          border-radius: 8px;
+          color: aliceblue;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 19px;
+          /* identical to box height, or 225% */
+  
+          letter-spacing: 0.2px;
+          transition: all 0.3s ease;
+          &:hover {
+            background: none;
+            border: 1px solid #f84646;
+            color: #f84646;
+          }
+        }
+      }
+    }
+  }
+}

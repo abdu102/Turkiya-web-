@@ -1,0 +1,285 @@
+.cards {
+  height: 960px;
+  padding-top: 70px;
+  &__title {
+    width: 68%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+
+    & h2 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 49px;
+    }
+    & p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 40px;
+      /* or 165% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+    }
+  }
+  &__box {
+    height: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    &--card {
+      margin: 15px;
+      width: 29%;
+      transition: all 0.3s ease;
+      &:hover{
+        transform: scale(1.1, 1.1);
+        box-shadow: 6px 5px 17px 3px rgba(34, 60, 80, 0.2);
+      }
+      &-body {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h5 {
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 33px;
+          text-align: center;
+        }
+        & p {
+            width: 70%;
+          font-family: "Manrope";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          /* or 156% */
+
+          text-align: center;
+          letter-spacing: 0.2px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:992px) {
+    .cards {
+        height: 1300px;
+        padding-top: 70px;
+        &__title {
+          width: 72%;
+          height: 20%;
+          display: flex;
+          justify-content: space-between;
+      
+          & h2 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 49px;
+          }
+          & p {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            /* or 165% */
+      
+            text-align: center;
+            letter-spacing: 0.2px;
+          }
+        }
+        &__box {
+          height: 75%;
+          flex-wrap: wrap;
+          justify-content: center;
+          &--card {
+            margin: 14px;
+            width: 30%;
+            transition: all 0.3s ease;
+            &:hover{
+              transform: scale(1.1, 1.1);
+              box-shadow: 6px 5px 17px 3px rgba(34, 60, 80, 0.2);
+            }
+            &-body {
+              height: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              & h5 {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 22px;
+                line-height: 33px;
+                text-align: center;
+              }
+              & p {
+                  width: 90%;
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* or 156% */
+      
+                text-align: center;
+                letter-spacing: 0.2px;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width:769px) {
+    .cards {
+        height: 1200px;
+        padding-top: 70px;
+        &__title {
+          width: 85%;
+          height: 17%;
+          display: flex;
+          justify-content: space-between;
+      
+          & h2 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 49px;
+          }
+          & p {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            /* or 165% */
+      
+            text-align: center;
+            letter-spacing: 0.2px;
+          }
+        }
+        &__box {
+          height: 75%;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          &--card {
+            margin: 14px;
+            width: 33%;
+            transition: all 0.3s ease;
+            &:hover{
+              transform: scale(1.1, 1.1);
+              box-shadow: 6px 5px 17px 3px rgba(34, 60, 80, 0.2);
+            }
+            &-body {
+              height: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              & h5 {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 22px;
+                line-height: 33px;
+                text-align: center;
+              }
+              & p {
+                  width: 95%;
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                /* or 156% */
+      
+                text-align: center;
+                letter-spacing: 0.2px;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width:576px) {
+    .cards {
+        height: 2350px;
+        padding-top: 70px;
+        &__title {
+          width: 94%;
+          height: 14%;
+          display: flex;
+          justify-content: space-between;
+      
+          & h2 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+          }
+          & p {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 36px;
+            /* or 165% */
+      
+            text-align: center;
+            letter-spacing: 0.2px;
+          }
+        }
+        &__box {
+          height: 84%;
+          flex-wrap: wrap;
+          justify-content: space-around;
+
+          &--card {
+            margin: 14px;
+            width: 70%;
+
+            transition: all 0.3s ease;
+            &:hover{
+              transform: scale(1.1, 1.1);
+              box-shadow: 6px 5px 17px 3px rgba(34, 60, 80, 0.2);
+            }
+            &-body {
+              height: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              & h5 {
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 22px;
+                line-height: 33px;
+                text-align: center;
+              }
+              & p {
+                  width: 95%;
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                /* or 156% */
+      
+                text-align: center;
+                letter-spacing: 0.2px;
+              }
+            }
+          }
+        }
+      }
+}

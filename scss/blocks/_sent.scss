@@ -1,0 +1,154 @@
+.sent {
+  height: 400px;
+  padding-bottom: 60px;
+  &__body {
+    width: 40%;
+    height: 55%;
+
+    & p {
+      width: 70%;
+      text-align: center;
+    }
+    & button {
+      width: 174px;
+      height: 58px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 20px;
+      background: #f84646;
+      &:hover {
+        background: #fff;
+        border: 1px solid red;
+        color: #f84646;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .sent {
+    height: 380px;
+
+    &__body {
+      width: 50%;
+      height: 55%;
+
+      & p {
+        width: 85%;
+        text-align: center;
+      }
+      & button {
+        width: 174px;
+        height: 58px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        background: #f84646;
+        &:hover {
+          background: #fff;
+          border: 1px solid red;
+          color: #f84646;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 430px) {
+  .sent {
+    height: 380px;
+
+    &__body {
+      width: 70%;
+      height: 60%;
+      & h2 {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 32px;
+        /* identical to box height, or 89% */
+
+        text-align: center;
+
+        color: #000000;
+      }
+      & p {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        /* or 179% */
+
+        text-align: center;
+        width: 100%;
+        color: #000000;
+        text-align: center;
+      }
+      & button {
+        width: 174px;
+        height: 58px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        background: #f84646;
+        &:hover {
+          background: #fff;
+          border: 1px solid red;
+          color: #f84646;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 361px) {
+  .sent {
+    height: 380px;
+
+    &__body {
+      width: 90%;
+      height: 60%;
+      & h2 {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 32px;
+        /* identical to box height, or 89% */
+
+        text-align: center;
+
+        color: #000000;
+      }
+      & p {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        /* or 179% */
+
+        text-align: center;
+        width: 100%;
+        color: #000000;
+        text-align: center;
+      }
+      & button {
+        width: 174px;
+        height: 58px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        background: #f84646;
+        &:hover {
+          background: #fff;
+          border: 1px solid red;
+          color: #f84646;
+        }
+      }
+    }
+  }
+}

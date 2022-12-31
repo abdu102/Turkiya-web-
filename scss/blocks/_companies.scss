@@ -1,0 +1,197 @@
+.companies {
+  height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 50px;
+  &__title {
+    & h2 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 64px;
+      /* identical to box height, or 133% */
+
+      text-align: center;
+      font-feature-settings: "salt" on, "liga" off;
+
+      /* Text / Gray 900 */
+
+      color: #18191f;
+    }
+    & p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      /* identical to box height, or 178% */
+
+      text-align: center;
+      font-feature-settings: "salt" on, "liga" off;
+
+      /* Text / Gray 900 */
+
+      color: #18191f;
+    }
+  }
+
+  &__body {
+    width: 42%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &--img {
+      width: 170px;
+      height: 96px;
+      display: flex;
+      justify-content: center;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: scale(1.2, 1.2);
+      }
+      & img {
+        width: 115px;
+        height: 56px;
+      }
+    }
+  }
+}
+@media screen and (max-width:992px) {
+    .companies {
+        height: 620px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 50px;
+        &__title {
+          & h2 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+            /* identical to box height, or 133% */
+      
+            text-align: center;
+            font-feature-settings: "salt" on, "liga" off;
+      
+            /* Text / Gray 900 */
+      
+            color: #18191f;
+          }
+          & p {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            /* identical to box height, or 178% */
+      
+            text-align: center;
+            font-feature-settings: "salt" on, "liga" off;
+      
+            /* Text / Gray 900 */
+      
+            color: #18191f;
+          }
+        }
+      
+        &__body {
+          width: 60%;
+          height: 75%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+      
+          &--img {
+            width: 170px;
+            height: 96px;
+            display: flex;
+            justify-content: center;
+            transition: all 0.3s ease;
+            &:hover {
+              transform: scale(1.2, 1.2);
+            }
+            & img {
+              width: 115px;
+              height: 56px;
+            }
+          }
+        }
+      }
+}
+@media screen and (max-width:430px) {   
+    .companies {
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 50px;
+        &__title {
+          & h2 {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 42px;
+            line-height: 64px;
+            /* identical to box height, or 133% */
+      
+            text-align: center;
+            font-feature-settings: "salt" on, "liga" off;
+      
+            /* Text / Gray 900 */
+      
+            color: #18191f;
+          }
+          & p {
+            width: 80%;
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 32px;
+            /* identical to box height, or 178% */
+      
+            text-align: center;
+            font-feature-settings: "salt" on, "liga" off;
+      
+            /* Text / Gray 900 */
+      
+            color: #18191f;
+          }
+        }
+      
+        &__body {
+          width: 60%;
+          height: 80%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+      
+          &--img {
+            width: 180px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            transition: all 0.3s ease;
+            &:hover {
+              transform: scale(1.2, 1.2);
+            }
+            & img {
+              width: 115px;
+              height: 56px;
+            }
+          }
+        }
+      }
+}
